@@ -1,0 +1,19 @@
+# === NODE DEPENDENCIES ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === TERRAFORM LOCAL FILES ===
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+tfplan
+vcredist_x86.exe
+
+# === OS SENSITIVE FILES ===
+.DS_Store
+Thumbs.db
+.env
